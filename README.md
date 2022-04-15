@@ -2,8 +2,8 @@
 
 Finger counting based on open-cv and hand tracking in real time.
 The Library used :
-" OpenCV "
-"*"Medipipe (MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines.)
+OpenCV
+Medipipe (MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines.)
 
 ML pipeline
 MediaPipe Hands utilizes an ML pipeline consisting of multiple models working together: A palm detection model that operates on the full image and returns an oriented hand bounding box. A hand landmark model that operates on the cropped image region defined by the palm detector and returns high-fidelity 3D hand keypoints. This strategy is similar to that employed in our MediaPipe Face Mesh solution, which uses a face detector together with a face landmark model.
