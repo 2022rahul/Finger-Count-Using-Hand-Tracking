@@ -2,7 +2,7 @@
 
 Finger counting based on open-cv and hand tracking in real time.
 The Library used :
-OpenCV
+OpenCV,
 Medipipe (MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines.)
 
 ML pipeline
